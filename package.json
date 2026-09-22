@@ -1,0 +1,37 @@
+{
+  "name": "lifeos-prime-world-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Talk to it like a diary. LifeOS turns messy life updates into a structured, navigable picture of what's true, what changed, and what to do next.",
+  "scripts": {
+    "dev": "node ./node_modules/next/dist/bin/next dev --turbopack --port 3100",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "start": "node ./node_modules/next/dist/bin/next start --port 3100",
+    "lint": "node ./node_modules/next/dist/bin/next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.4.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "bcryptjs": "^3.0.3",
+    "firebase-admin": "^14.4.0",
+    "lucide-react": "^0.544.0",
+    "next": "^15.5.4",
+    "openai": "^5.23.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@types/three": "^0.180.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  }
+}
